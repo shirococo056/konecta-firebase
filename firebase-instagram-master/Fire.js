@@ -13,12 +13,20 @@ const collectionName = 'snack-SJucFknGX';
 class Fire {
   constructor() {
     firebase.initializeApp({
-      apiKey: 'AIzaSyAQan8_IJ6fY6F8E06FMDKVbWlrdI75mvA',
-      authDomain: 'instahamm-b09ce.firebaseapp.com',
-      databaseURL: 'https://instahamm-b09ce.firebaseio.com',
-      projectId: 'instahamm-b09ce',
-      storageBucket: 'instahamm-b09ce.appspot.com',
-      messagingSenderId: '716190466061',
+  apiKey: "AIzaSyD8U0rUBKAKd-oqZ0v9N3AxN44dLbSEhnc",
+
+  authDomain: "konecta-firebase.firebaseapp.com",
+
+  projectId: "konecta-firebase",
+
+  storageBucket: "konecta-firebase.appspot.com",
+
+  messagingSenderId: "26297566900",
+
+  appId: "1:26297566900:web:d2c0c2802f1656600a79e1",
+
+  measurementId: "G-J3P5D9TMZE"
+
     });
     // Some nonsense...
     firebase.firestore().settings({ timestampsInSnapshots: true });
